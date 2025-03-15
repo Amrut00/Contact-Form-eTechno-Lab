@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - E Techno Lab</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h2>Submit Your Details</h2>
+    
+    <div class="container">
+        <form id="submitForm">
+            <label for="name">Tell us your name *</label>
+            <input type="text" id="name" placeholder="Enter name" required>
+
+            <label for="email">Enter your E-mail ID *</label>
+            <input type="email" id="email" placeholder="Eg. example@email.com" required>
+
+            <label for="mobile">Enter your mobile number *</label>
+            <input type="tel" id="mobile" placeholder="Eg. +91 800 000000" required>
+
+            <label for="dob">Enter your birthdate *</label>
+            <input type="date" id="dob" required>
+
+            <label for="message">Message *</label>
+            <textarea id="message" placeholder="Write us a message" rows="5" required></textarea>
+            
+            <div class="button-group">
+                <button type="submit" id="submitBtn">
+                    <span class="btn-text">SEND MESSAGE</span>
+                    <span class="loader"></span>
+                </button>
+                <button type="reset">RESET</button>
+            </div>
+        </form>
+        <div class="contact-info">
+            <div class="address-section">
+                <h3>Address</h3>
+                <p>F.No.105, 1st Floor, Swami Krupa<br>
+                B Wing Anand Vihar, Colony No-1<br>
+                Sinhagad Road, Pune, Maharashtra (India)</p>
+
+                <h3>Interview Address</h3>
+                <p>471, 2nd Floor, Joshi Building<br>
+                Near Lokhande Talim<br>
+                Narayan Peth, Pune, Maharashtra (India)</p>
+
+                <h3>Let's Talk</h3>
+                <p>+91 909-651-9449</p>
+
+                <h3>General Support</h3>
+                <p>support@etechnolab.com</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
